@@ -8,6 +8,7 @@ then
 elif [ $command = "build" ]
 then
 	python3 app.py build
+	pip freeze;
 elif [ $command = "install" ]
 then
 	pip install $2	
